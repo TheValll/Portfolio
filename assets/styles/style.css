@@ -1,0 +1,109 @@
+@font-face {
+  font-family: clear;
+  src: url(./../fonts/ClearSans-Bold.ttf);
+}
+@font-face {
+  font-family: DM;
+  src: url(./../fonts/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: public;
+  src: url(./../fonts/FontsFree-Net-PublicSans-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(./../fonts/Roboto-Regular.ttf);
+}
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  background-color: #f6f6f6;
+  min-height: 100vh;
+}
+header .header--left {
+  background: url(../images/header_pdp.png) center/cover;
+}
+header .header--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: #343434;
+  text-align: center;
+}
+header .header--right h1 {
+  font-size: 64px;
+}
+
+.about--me {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  background-color: #b4b0ab;
+  padding: 100px 0;
+}
+.about--me .about--me--left {
+  font-family: DM;
+  color: #343434;
+  margin-left: 50px;
+}
+.about--me .about--me--left h2 {
+  font-size: 44px;
+  text-align: center;
+}
+.about--me .about--me--left p {
+  margin: 30px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+.about--me .about--me--right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about--me .about--me--right img {
+  width: 60%;
+}
+
+.education {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  color: #343434;
+  font-size: 22px;
+}
+.education h2 {
+  margin: 100px 0 0 50px;
+  font-family: clear;
+  font-size: 44px;
+}
+.education .diplomas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  margin: 100px 100px 0 0;
+}
+.education .diplomas .diploma--,
+.education .diplomas .dates {
+  margin-top: 50px;
+}
+.education .diplomas .diploma-- {
+  font-family: DM;
+  margin-left: -150px;
+}
+.education .diplomas .dates {
+  font-family: clear;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}/*# sourceMappingURL=style.css.map */

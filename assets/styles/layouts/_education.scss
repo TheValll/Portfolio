@@ -1,0 +1,29 @@
+.education {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  color: #343434;
+  font-size: 22px;
+  h2 {
+    margin: 100px 0 0 50px;
+    font-family: clear;
+    font-size: 44px;
+  }
+  .diplomas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    margin: 100px 100px 0 0;
+    .diploma--,
+    .dates {
+      margin-top: 50px;
+    }
+    .diploma-- {
+      font-family: DM;
+      margin-left: -150px;
+    }
+    .dates {
+      font-family: clear;
+    }
+  }
+}

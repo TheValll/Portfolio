@@ -1,0 +1,22 @@
+$fonts: #343434;
+$skills: #535353;
+$gray: #b4b0ab;
+$white: #f6f6f6;
+
+@font-face {
+  font-family: clear;
+  src: url(./../fonts/ClearSans-Bold.ttf);
+}
+@font-face {
+  font-family: DM;
+  src: url(./../fonts/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: public;
+  src: url(./../fonts/FontsFree-Net-PublicSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./../fonts/Roboto-Regular.ttf);
+}

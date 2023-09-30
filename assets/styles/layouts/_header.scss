@@ -1,0 +1,22 @@
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  background-color: #f6f6f6;
+  min-height: 100vh;
+  .header--left {
+    background: url(../images/header_pdp.png) center/cover;
+  }
+  .header--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: $fonts;
+    text-align: center;
+    h1 {
+      font-size: 64px;
+    }
+  }
+}

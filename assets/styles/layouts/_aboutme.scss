@@ -1,0 +1,30 @@
+.about--me {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  background-color: $gray;
+  padding: 100px 0;
+  .about--me--left {
+    font-family: DM;
+    color: $fonts;
+    margin-left: 50px;
+    h2 {
+      font-size: 44px;
+      text-align: center;
+    }
+    p {
+      margin: 30px;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  }
+  .about--me--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 60%;
+    }
+  }
+}
