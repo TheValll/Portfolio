@@ -1,0 +1,27 @@
+footer {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 100vh;
+  background-color: $black;
+  .footer--left {
+    background: url(../images/footer_pdp.png) center/cover;
+  }
+  .footer--right {
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h3 {
+      font-family: "Roboto", sans-serif;
+      font-size: 44px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-family: clear;
+      margin-top: 10px;
+      font-size: 24px;
+    }
+  }
+}

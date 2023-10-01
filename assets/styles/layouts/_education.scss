@@ -1,7 +1,7 @@
 .education {
   display: grid;
   grid-template-columns: 40% 60%;
-  color: #343434;
+  color: $fonts;
   font-size: 22px;
   h2 {
     margin: 100px 0 0 50px;

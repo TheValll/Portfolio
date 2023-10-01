@@ -1,8 +1,7 @@
 header {
   display: grid;
   grid-template-columns: 50% 50%;
-  width: 100%;
-  background-color: #f6f6f6;
+  background-color: $white;
   min-height: 100vh;
   .header--left {
     background: url(../images/header_pdp.png) center/cover;
@@ -17,6 +16,15 @@ header {
     text-align: center;
     h1 {
       font-size: 64px;
+    }
+    .socials {
+      margin-top: 10px;
+      a {
+        text-decoration: none;
+        color: $fonts;
+        margin: 0 5px;
+        font-size: 24px;
+      }
     }
   }
 }

@@ -17,7 +17,6 @@
 header {
   display: grid;
   grid-template-columns: 50% 50%;
-  width: 100%;
   background-color: #f6f6f6;
   min-height: 100vh;
 }
@@ -35,6 +34,15 @@ header .header--right {
 }
 header .header--right h1 {
   font-size: 64px;
+}
+header .header--right .socials {
+  margin-top: 10px;
+}
+header .header--right .socials a {
+  text-decoration: none;
+  color: #343434;
+  margin: 0 5px;
+  font-size: 24px;
 }
 
 .about--me {
@@ -96,6 +104,102 @@ header .header--right h1 {
 }
 .education .diplomas .dates {
   font-family: clear;
+}
+
+.skills--language h2 {
+  margin: 100px 0 0 50px;
+  font-family: clear;
+  font-size: 44px;
+  color: #343434;
+}
+.skills--language .grid--container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 0;
+  flex-wrap: wrap;
+}
+.skills--language .grid--container h3 {
+  font-family: clear;
+  font-size: 28px;
+  color: #343434;
+}
+.skills--language .grid--container p {
+  font-family: DM;
+  font-size: 24px;
+  color: #343434;
+  margin-top: 30px;
+}
+.skills--language progress {
+  width: 300px;
+  height: 30px;
+  border: 0px solid gray;
+  margin-top: 10px;
+}
+.skills--language progress::-webkit-progress-bar {
+  background-color: #b4b0ab;
+}
+.skills--language progress::-webkit-progress-value {
+  background-color: black;
+}
+
+.project .project--header {
+  position: relative;
+}
+.project .project--header h2 {
+  margin: 150px 0 0 50px;
+  font-family: clear;
+  font-size: 44px;
+  color: #343434;
+}
+.project h4 {
+  font-family: clear;
+  font-size: 28px;
+  color: #343434;
+  text-align: center;
+  margin: 50px 0;
+}
+.project .html--css--saas--content {
+  margin-top: 100px;
+}
+.project .all--projects {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+.project .all--projects img {
+  box-shadow: 5px 5px 5px black;
+  transition: 0.2s;
+}
+.project .all--projects img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 100vh;
+  background-color: rgb(15, 15, 15);
+}
+footer .footer--left {
+  background: url(../images/footer_pdp.png) center/cover;
+}
+footer .footer--right {
+  color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+footer .footer--right h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+footer .footer--right p {
+  font-family: clear;
+  margin-top: 10px;
+  font-size: 24px;
 }
 
 * {

@@ -1,0 +1,33 @@
+.project {
+  .project--header {
+    position: relative;
+    h2 {
+      margin: 150px 0 0 50px;
+      font-family: clear;
+      font-size: 44px;
+      color: $fonts;
+    }
+  }
+  h4 {
+    font-family: clear;
+    font-size: 28px;
+    color: $fonts;
+    text-align: center;
+    margin: 50px 0;
+  }
+  .html--css--saas--content {
+    margin-top: 100px;
+  }
+  .all--projects {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    img {
+      box-shadow: 5px 5px 5px black;
+      transition: 0.2s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
