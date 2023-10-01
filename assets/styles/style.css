@@ -35,6 +35,9 @@ header .header--right {
 header .header--right h1 {
   font-size: 64px;
 }
+header .header--right h1 #break {
+  display: none;
+}
 header .header--right .socials {
   margin-top: 10px;
 }
@@ -45,6 +48,32 @@ header .header--right .socials a {
   font-size: 24px;
 }
 
+@media screen and (max-width: 1000px) {
+  header {
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+    background: url(../images/header_pdp.png) center/cover fixed;
+  }
+  header .header--left {
+    display: none;
+  }
+  header .header--right {
+    color: #f6f6f6;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+  }
+  header .header--right .socials a {
+    color: #f6f6f6;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .header--right h1 {
+    font-size: 44px;
+  }
+  header .header--right h1 #break {
+    display: block;
+  }
+}
 .about--me {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -76,6 +105,32 @@ header .header--right .socials a {
   width: 60%;
 }
 
+@media screen and (max-width: 1570px) {
+  .about--me {
+    display: flex;
+    justify-content: center;
+  }
+  .about--me .about--me--left {
+    margin-left: 0;
+    width: 70%;
+  }
+  .about--me .about--me--right {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about--me .about--me--left {
+    margin-left: 0;
+  }
+  .about--me .about--me--left p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about--me .about--me--left p {
+    font-size: 14px;
+  }
+}
 .education {
   display: grid;
   grid-template-columns: 40% 60%;
@@ -106,6 +161,36 @@ header .header--right .socials a {
   font-family: clear;
 }
 
+@media screen and (max-width: 1200px) {
+  .education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .education h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  .education .diplomas {
+    margin: 100px 0 0 0;
+    width: 80%;
+  }
+  .education .diploma-- {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .education .diplomas {
+    display: flex;
+    flex-direction: column;
+  }
+  .education .diplomas .diploma-- {
+    margin-left: 0;
+  }
+  .education .diplomas .dates {
+    display: none;
+  }
+}
 .skills--language h2 {
   margin: 100px 0 0 50px;
   font-family: clear;
@@ -116,7 +201,6 @@ header .header--right .socials a {
   display: flex;
   justify-content: space-evenly;
   margin: 100px 0;
-  flex-wrap: wrap;
 }
 .skills--language .grid--container h3 {
   font-family: clear;
@@ -142,6 +226,22 @@ header .header--right .socials a {
   background-color: black;
 }
 
+@media screen and (max-width: 1100px) {
+  .skills--language h2 {
+    text-align: center;
+    margin-left: 0;
+  }
+  .skills--language .grid--container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .skills--language .grid--container .skills,
+  .skills--language .grid--container .skills--tech,
+  .skills--language .grid--container .languages {
+    margin-top: 50px;
+  }
+}
 .project .project--header {
   position: relative;
 }
@@ -174,6 +274,19 @@ header .header--right .socials a {
   transform: scale(1.2);
 }
 
+@media screen and (max-width: 850px) {
+  .project .project--header h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  .project .all--projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project .all--projects .responsive {
+    margin-top: 50px;
+  }
+}
 footer {
   margin-top: 150px;
   display: grid;
@@ -202,6 +315,25 @@ footer .footer--right p {
   font-size: 24px;
 }
 
+@media screen and (max-width: 1050px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    background: url(../images/footer_pdp.png) center/cover fixed;
+  }
+  footer .footer--left {
+    display: none;
+  }
+  footer .footer--right {
+    color: #f6f6f6;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+  }
+}
+@media screen and (max-width: 540px) {
+  footer .footer--right p {
+    font-size: 18px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

@@ -9,7 +9,6 @@
     display: flex;
     justify-content: space-evenly;
     margin: 100px 0;
-    flex-wrap: wrap;
     h3 {
       font-family: clear;
       font-size: 28px;
@@ -18,7 +17,7 @@
     p {
       font-family: DM;
       font-size: 24px;
-      color: #343434;
+      color: $fonts;
       margin-top: 30px;
     }
   }
@@ -33,5 +32,23 @@
   }
   progress::-webkit-progress-value {
     background-color: black;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .skills--language {
+    h2 {
+      text-align: center;
+      margin-left: 0;
+    }
+    .grid--container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .skills,
+      .skills--tech,
+      .languages {
+        margin-top: 50px;
+      }
+    }
   }
 }

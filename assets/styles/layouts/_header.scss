@@ -16,6 +16,9 @@ header {
     text-align: center;
     h1 {
       font-size: 64px;
+      #break {
+        display: none;
+      }
     }
     .socials {
       margin-top: 10px;
@@ -24,6 +27,38 @@ header {
         color: $fonts;
         margin: 0 5px;
         font-size: 24px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  header {
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+    background: url(../images/header_pdp.png) center/cover fixed;
+    .header--left {
+      display: none;
+    }
+    .header--right {
+      color: $white;
+      text-shadow: 3px 3px 3px $black;
+      .socials {
+        a {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  header {
+    .header--right {
+      h1 {
+        font-size: 44px;
+        #break {
+          display: block;
+        }
       }
     }
   }

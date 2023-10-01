@@ -27,3 +27,35 @@
     }
   }
 }
+@media screen and (max-width: 1200px) {
+  .education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      margin-left: 0;
+      text-align: center;
+    }
+    .diplomas {
+      margin: 100px 0 0 0;
+      width: 80%;
+    }
+    .diploma-- {
+      margin-left: 0;
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .education {
+    .diplomas {
+      display: flex;
+      flex-direction: column;
+      .diploma-- {
+        margin-left: 0;
+      }
+      .dates {
+        display: none;
+      }
+    }
+  }
+}

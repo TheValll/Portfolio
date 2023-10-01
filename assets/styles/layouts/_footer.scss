@@ -25,3 +25,26 @@ footer {
     }
   }
 }
+@media screen and (max-width: 1050px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    background: url(../images/footer_pdp.png) center/cover fixed;
+    .footer--left {
+      display: none;
+    }
+    .footer--right {
+      color: $white;
+      text-shadow: 3px 3px 3px $black;
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  footer {
+    .footer--right {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
