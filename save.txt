@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentin Massonniere</title>
+    <link rel="shortcut icon" href="icon de la page">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="head-info">
+            <img src="./assets/images/header_pdp.png" alt="image du header">
+            <div id="desc">
+                <p id="name">Valentin <br id="br-head"> Massonniere</p>
+                <br>
+                <P id="statut">Etudiant</P>
+            </div>
+        </div>
+    </header>
+    <main class="main-about">
+        <div id="section">
+            <div id="description">
+                <p id="about-title">À propos de moi</p>
+                <br>
+                <p id="me">Je m'appelle Valentin, j'ai 21 ans et je suis passionné par divers domaines.
+                    <br>La cybersécurité m'intéresse particulièrement, j'aimerais protéger les systèmes 
+                    informatiques contre les cybers attaques. J'ai également une passion pour l'aéronautique, 
+                    j'adore les avions et je suis fasciné par les technologies de l'aviation.
+                    <br>Les voyages font partie de mes passions, j'adore découvrir de nouveaux endroits et 
+                    m'immerger dans différentes cultures.
+                    <br>Je suis également attiré par l'audiovisuel, j'aime créer et éditer des vidéos. 
+                    <br>Enfin, j'ai un intérêt pour le développement et les jeux vidéo, j'aime comprendre 
+                    comment les logiciels sont conçus et m'immerger dans des mondes virtuels. 
+                    <br>En résumé, je suis un jeune homme curieux et polyvalent, passionné par la 
+                    cybersécurité, l'aéronautique, les voyages, l'audiovisuel, le développement 
+                    et les jeux vidéo. J'aime explorer de nouveaux horizons et me plonger dans des 
+                    domaines variés.</p>
+            </div>
+            <img src="./assets/images/pc_code.jpg" alt="code pc">
+        </div>
+    </main>
+    <main id="xp">
+        <div id="education">
+            <h2>Formations & <br> Expériences</h2>
+        </div>
+        <div id="date">
+            <p id="year">2022</p>
+            <p id="years">2021</p>
+            <p id="yearss">2020</p>
+        </div>
+        <div id="diplome">
+            <div>
+                <h3>Brevet d'initiation aéronautique</h3>
+                <p id="mention">Mention assez bien</p>
+                <br>
+                <p>Apprentissage des notions fondamentales de l'aéronautique</p>
+            </div>
+            <div>
+                <h3 id="title">Remise a niveau scientifique</h3>
+                <p id="mention">Réussite</p>
+                <br>
+                <p>Prise de connaissance du programme de mathématiques, physique et chimie du bac S et L1 physique/chimie</p>
+            </div>
+            <div>
+                <h3 id="title">BAC STI2D</h3>
+                <p id="mention">Mention assez bien</p>
+                <br>
+                <p>Spécialité Énergie et Environnement</p>
+            </div>
+        </div>
+    </main>
+    <main class="xpp">
+        <div id="education">
+            <h2>Formations & <br> Expériences</h2>
+        </div>
+        <div id="diplome">
+            <div>
+                <h3>2022 - Brevet d'initiation aéronautique</h3>
+                <p id="mention">Mention assez bien</p>
+                <br>
+                <p>Apprentissage des notions fondamentales de l'aéronautique</p>
+            </div>
+            <div>
+                <h3 id="title">2021 - Remise a niveau scientifique</h3>
+                <p id="mention">Réussite</p>
+                <br>
+                <p>Prise de connaissance du programme de mathématiques, physique et chimie du bac S et L1 physique/chimie</p>
+            </div>
+            <div>
+                <h3 id="title">2020 - BAC STI2D</h3>
+                <p id="mention">Mention assez bien</p>
+                <br>
+                <p>Spécialité Énergie et Environnement</p>
+            </div>
+        </div>
+    </main>
+    <main id="skills">
+       <div id="skilltitle">
+        <h2>Compétences & <br>Langues</h2>
+       </div>
+       <div id="gridcontainer">
+        <div class="competences">
+            <h3 class="titles">COMPETENCES</h3>
+            <div>
+                <div>
+                    <p class="skill">Analytique, observation</p>
+                    <progress class="bar" value="80" max="100"></progress>
+                </div>
+                <div>
+                    <p class="skill">Travail en équipe, adaptation</p>
+                    <progress class="bar" value="70" max="100"></progress>
+                </div>
+                <div>
+                    <p class="skill">Communication, autonomie</p>
+                    <progress class="bar" value="70" max="100"></progress>
+                </div>
+            </div>
+        </div>
+        <div class="competences-techniques">
+            <h3 class="titles">COMPETENCES TECHNIQUES</h3>
+            <div>
+                <div>
+                    <p class="skill">Windows, HTML, CSS</p>
+                    <progress class="bar" value="95" max="100"></progress>
+                </div>
+                <div>
+                    <p class="skill">Adobe Photoshop, Première Pro</p>
+                    <progress class="bar" value="80" max="100"></progress>
+                </div>
+                <div>
+                    <p class="skill">Simulateur de vol</p>
+                    <progress class="bar" value="75" max="100"></progress>
+                </div>
+            </div>
+        </div>
+        <div class="langues">
+            <h3 class="titles">LANGUES</h3>
+            <div>
+                <p class="skill">Français natif</p>
+                <progress class="bar" value="100" max="100"></progress>
+            </div>
+            <div>
+                <p class="skill">Anglais B2</p>
+                <progress class="bar" value="65" max="100"></progress>
+            </div>
+            <div>
+                <p class="skill">Espagnol A2</p>
+                <progress class="bar" value="45" max="100"></progress>
+            </div>
+        </div>
+       </div>
+    </main>
+    <footer>
+        <div>
+            <img src="./assets/images/footer_pdp.png" alt="footer-pdp">
+        </div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <div id="info">
+                <h3>Valentin Massonniere</h3>
+                <p>valentinmassonniere.etudes@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+
+@font-face {
+    font-family: clear;
+    src: url(./assets/fonts/ClearSans-Bold.ttf);
+}
+@font-face {
+    font-family: DM;
+    src: url(./assets/fonts/DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: public;
+    src: url(./assets/fonts/FontsFree-Net-PublicSans-Bold.ttf);
+}
+
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    animation: apparition 0.8s ease-out;
+    background-color: black;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+
+#head-info{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+#br-head{
+    display: none;
+}
+
+#head-info img{
+    width: 100%;
+}
+
+#desc{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name{
+    font-family: clear;
+    font-size: 84px;
+    color: #343434;
+}
+
+#statut{
+    font-family: DM;
+    font-size: 64px;
+    color: #343434;
+}
+
+#main-about{
+    margin: 0;
+    padding: 0;
+}
+
+#section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    background-color: #B4B0AB;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#description{
+    margin: auto;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-title{
+    font-family: clear;
+    font-size: 44px;
+    color: #343434;
+}
+
+#me{
+    margin-top: 30px;
+    font-family: DM;
+    font-size: 24px;
+    color: #343434;
+}
+
+#section img{
+    width: 80%;
+    margin: auto;
+}
+
+#xp{
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    background-color: #F6F6F6;
+}
+
+#education{
+    font-family: clear;
+    font-size: 44px;
+    color: #343434;
+}
+
+#date{
+    font-family: public;
+    font-size: 24px;
+    color: #343434;
+    margin-top: 20px;
+}
+
+#diplome{
+    font-family: DM;
+    font-size: 24px;
+    color: #343434;
+    margin-top: 20px;
+}
+
+#year{
+    margin-top: 10px;
+}
+
+#years{
+    margin-top: 130px;
+}
+
+#yearss{
+    margin-top: 160px;
+}
+
+#title{
+    margin-top: 20px;
+}
+
+#mention{
+    margin-top: 10px;
+}
+
+#diplomes{
+    display: none;
+}
+
+.xpp{
+    display: none;
+}
+
+#skills{
+    background-color: #F6F6F6;
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-bottom: 250px;
+}
+
+#skilltitle{
+    font-family: clear;
+    font-size: 44px;
+    color: #343434;
+}
+
+#gridcontainer{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.titles{
+    font-family: clear;
+    font-size: 28px;
+    color: #343434;
+}
+
+.skill{
+    font-family: DM;
+    font-size: 24px;
+    color: #343434;
+    margin-top: 50px;
+}
+
+.bar{  
+    width: 300px;  
+    height: 30px;
+    border: 0px solid gray;
+}
+.bar::-webkit-progress-bar{
+    background-color: #B4B0AB;
+}
+.bar::-webkit-progress-value{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: top;
+    padding: 50px;
+}
+
+footer img{
+    width: 80%;
+}
+
+#contact{
+    margin-top: 200px;
+    font-family: clear;
+    font-size: 32px;
+    color: whitesmoke;
+}
+
+#info{
+    font-family: clear;
+    font-size: 24px;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1550px){
+    #head-info{
+        display: block;
+    }
+    #head-info img{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #xp{
+        display: none;
+    }
+    .xpp{
+        display: block;
+        padding-left: 150px;
+        padding-top: 100px;
+        padding-right: 20px;
+        background-color: #F6F6F6;
+    }
+    #diplome{
+        margin-top: 50px;
+    }
+    #skills{
+        padding-bottom: 0px;
+    }
+    #gridcontainer{
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        "competences competences-techniques ."
+        "langues langues ."
+        ". . ."; 
+    }
+    .competences{ 
+        grid-area: competences; 
+    }
+    .competences-techniques{ 
+        grid-area: competences-techniques; 
+    }
+    .langues{ 
+        grid-area: langues; 
+        justify-self: center; 
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1330px){
+    #gridcontainer{
+        display: block;
+        padding-bottom: 100px;
+        margin: auto;
+        width: 50%;
+    }
+    .langues, .competences, .competences-techniques{
+        margin-top: 100px;
+    }
+    footer{
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+    footer img{
+        width: 100%;
+    }
+    #contact{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #gridcontainer{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #section{
+        display: block;
+    }
+    #description{
+        margin: 0;
+        margin-left: 10px;
+    }
+    #section img{
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+} 
+
+@media screen and (max-width: 850px){
+    #name{
+        text-align: center;
+    }
+    #br-head{
+        display: block;
+    }
+    .xpp{
+        padding-left: 100px;
+    }
+    #skills{
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width: 650px){
+    .xpp{
+        padding-left: 20px;
+    }
+    #skills{
+        padding-left: 20px;
+    }
+    footer{
+        margin: 0;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 650px){
+    #name{
+        font-size: 64px;
+    }
+    #education{
+        font-size: 32px;
+    }
+    #skilltitle{
+        font-size: 32px;
+    }
+    #info{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #section img{
+        margin-left: 100px;
+    }
+}
