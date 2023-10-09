@@ -20,11 +20,13 @@
   }
   .all--projects {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 50px 0;
     img {
       box-shadow: 5px 5px 5px black;
       transition: 0.2s;
+      margin: 20px;
       &:hover {
         transform: scale(1.2);
       }

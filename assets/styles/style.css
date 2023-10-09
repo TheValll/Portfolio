@@ -263,12 +263,14 @@ header .header--right .socials a {
 }
 .project .all--projects {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 50px 0;
 }
 .project .all--projects img {
   box-shadow: 5px 5px 5px black;
   transition: 0.2s;
+  margin: 20px;
 }
 .project .all--projects img:hover {
   transform: scale(1.2);
