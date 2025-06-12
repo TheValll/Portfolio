@@ -1,6 +1,9 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { LinkedinIcon, GithubIcon } from "lucide-react";
+import styles from "./styles/Presentation.module.css";
 
 const Presentation = () => {
   return (
@@ -10,11 +13,9 @@ const Presentation = () => {
     >
       {/* Right Image Column (appears first on small screens due to flex-col order) */}
       <div
-        className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 flex-shrink-0 rounded-full overflow-hidden shadow-xl mt-16 md:mt-0 md:ml-12 order-1 md:order-2"
+        className={`${styles.animatedImage} relative flex-shrink-0 overflow-hidden shadow-xl mt-16 md:mt-0 md:ml-12 order-1 md:order-2`}
         style={{
           backgroundImage: "url(/assets/img/header_pdp.jpg)",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
         }}
       ></div>
 
@@ -22,7 +23,9 @@ const Presentation = () => {
       <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-1/2 p-4 md:p-8 space-y-6 order-2 md:order-1">
         {/* Title */}
         <div className="max-w-xl">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+          <h1
+            className={`${styles.title} text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight`}
+          >
             AI & Data Engineering
             <br /> Student{" "}
             <span role="img" aria-label="mobile phone">
@@ -32,13 +35,13 @@ const Presentation = () => {
         </div>
 
         {/* Description */}
-        <div className="max-w-md text-lg text-gray-700">
+        <div className={`${styles.description} max-w-md text-lg text-gray-700`}>
           <p>
             Hello, I'm Valentin Massonnière, an enthusiastic{" "}
             <br className="hidden sm:inline" />
             AI & Data Engineering Student from France{" "}
             <span role="img" aria-label="pin location">
-              📍
+              🇫🇷
             </span>
           </p>
         </div>
@@ -59,71 +62,73 @@ const Presentation = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub profile"
-            className="hover:text-gray-900 transition-colors duration-300"
+            className="hover:text-blue-600 transition-colors duration-300"
           >
             <GithubIcon className="h-8 w-8" />
           </a>
         </div>
 
         {/* Tech Stack */}
-        <div className="flex flex-col items-center md:items-start space-y-4 pt-4">
-          <h3 className="text-xl font-semibold text-gray-800">Tech Stack |</h3>
-          <div className="flex flex-wrap justify-center md:justify-start gap-4">
+        <div className="flex flex-col md:flex-row items-center md:items-center space-y-2 md:space-y-0 md:space-x-4 pt-4 w-full">
+          <h3 className="text-xl font-semibold text-gray-800 mb-2 md:mb-0 whitespace-nowrap">
+            Tech Stack |
+          </h3>
+          <div className="grid grid-cols-2 gap-4 md:flex md:flex-row md:gap-4">
             <Image
-              src="/assets/icon/js.png"
-              alt="JavaScript logo"
+              src="/assets/icon/CPP.svg"
+              alt="Logo C++"
               width={40}
               height={40}
-              className="object-contain"
+              className={`object-contain ${styles.techIcon}`}
             />
             <Image
-              src="/assets/icon/ts.png"
-              alt="TypeScript logo"
+              src="/assets/icon/Python.svg"
+              alt="Logo Python"
               width={40}
               height={40}
-              className="object-contain"
+              className={`object-contain ${styles.techIcon}`}
             />
             <Image
-              src="/assets/icon/react.png"
-              alt="React logo"
+              src="/assets/icon/GCP.svg"
+              alt="Logo GCP"
               width={40}
               height={40}
-              className="object-contain"
+              className={`object-contain ${styles.techIcon}`}
             />
             <Image
-              src="/assets/icon/nextjs.png"
-              alt="Next.js logo"
+              src="/assets/icon/Bash.svg"
+              alt="Logo Bash"
               width={40}
               height={40}
-              className="object-contain"
+              className={`object-contain ${styles.techIcon}`}
             />
             <Image
-              src="/assets/icon/php.png"
-              alt="PHP logo"
+              src="/assets/icon/Docker.svg"
+              alt="Logo Docker"
               width={40}
               height={40}
-              className="object-contain"
+              className={`object-contain ${styles.techIcon}`}
             />
             <Image
-              src="/assets/icon/symfony.png"
-              alt="Symfony logo"
+              src="/assets/icon/RaspberryPi.svg"
+              alt="Logo RaspberryPi"
               width={40}
               height={40}
-              className="object-contain"
+              className={`object-contain ${styles.techIcon}`}
             />
             <Image
-              src="/assets/icon/sass.png"
-              alt="Sass logo"
+              src="/assets/icon/GitLab.svg"
+              alt="Logo Gitlab"
               width={40}
               height={40}
-              className="object-contain"
+              className={`object-contain ${styles.techIcon}`}
             />
             <Image
-              src="/assets/icon/git.png"
-              alt="Git logo"
+              src="/assets/icon/GitHub.svg"
+              alt="Logo GitHub"
               width={40}
               height={40}
-              className="object-contain"
+              className={`object-contain ${styles.techIcon}`}
             />
           </div>
         </div>
@@ -133,7 +138,17 @@ const Presentation = () => {
       <a
         href="#aboutScroll"
         aria-label="Scroll down"
-        className="absolute bottom-8 animate-bounce"
+        className="absolute bottom-8 animate-bounce hidden md:flex items-center justify-center"
+        onClick={(e) => {
+          e.preventDefault();
+          const element = document.querySelector("#aboutScroll");
+          if (element) {
+            window.scrollTo({
+              top: element.offsetTop - 150,
+              behavior: "smooth",
+            });
+          }
+        }}
       >
         <div className="w-8 h-8 border-2 border-gray-600 rounded-full flex items-center justify-center">
           <svg

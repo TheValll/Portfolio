@@ -32,7 +32,10 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-xl">
+    <header
+      className="fixed top-0 left-0 right-0 z-50 bg-white shadow-xl"
+      id="home"
+    >
       <div className="flex justify-between items-center px-8 py-8">
         <div className="flex-shrink-0">
           <h1 className={`${styles.title} text-2xl font-bold`}>
@@ -42,7 +45,21 @@ const Header = () => {
 
         <nav className="hidden md:flex space-x-8">
           {navLinks.map((link) => (
-            <a key={link.name} href={link.href} className={`${styles.navLink}`}>
+            <a
+              key={link.name}
+              href={link.href}
+              className={`${styles.navLink}`}
+              onClick={(e) => {
+                e.preventDefault();
+                const element = document.querySelector(link.href);
+                if (element) {
+                  window.scrollTo({
+                    top: element.offsetTop - 150,
+                    behavior: "smooth",
+                  });
+                }
+              }}
+            >
               {link.name}
             </a>
           ))}
