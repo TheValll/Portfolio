@@ -1,0 +1,44 @@
+.title {
+  color: #2c3e50;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(45, 46, 50);
+}
+
+.navLink {
+  color: #34495e;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  color: rgb(45, 46, 50);
+}
+
+.navLink:hover {
+  color: #3498db;
+}
+
+.mobileMenuButton {
+  color: rgb(45, 46, 50);
+  transition: color 0.3s ease-in-out;
+}
+
+.mobileMenuButton:hover {
+  color: #3498db;
+}
+
+.mobileNavLink {
+  color: rgb(45, 46, 50);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.75rem 0;
+  transition: color 0.3s ease-in-out;
+}
+
+.mobileNavLink:hover {
+  color: #3498db;
+}
