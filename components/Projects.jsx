@@ -123,7 +123,6 @@ const Projects = () => {
                 </div>
               </>
             ) : (
-              // For odd indices (1, 3, 5...), image on right
               <>
                 {/* Right/Content Column (now on left visually) */}
                 <div className="flex flex-col items-center text-center p-4 md:items-start md:text-left">
@@ -232,7 +231,7 @@ const Projects = () => {
             {bottomProjects.map((project) => (
               <a
                 key={project.name}
-                href={project.link || project.demo}
+                href={project.demo || link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full max-w-xs overflow-hidden rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg"
