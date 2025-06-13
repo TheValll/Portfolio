@@ -4,7 +4,7 @@ This repository is the home for the source code of my personal portfolio built w
 
 ## Live Demo 🌐
 
-Check out the live demo here: https://nextjs-portfolio-mu-self.vercel.app/
+Check out the live demo here: https://portfolio-phi-six-16.vercel.app/
 
 ## Features 🚀
 
