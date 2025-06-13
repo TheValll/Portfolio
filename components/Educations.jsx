@@ -111,7 +111,7 @@ const Educations = () => {
                         rel="noopener noreferrer"
                         className="flex items-center text-gray-700 font-mulish text-xl transition-colors duration-300 hover:text-blue-600 hover:scale-105"
                       >
-                        Site Web
+                        Web Site{" "}
                         <i className="fa-solid fa-up-right-from-square ml-2 text-2xl inline-block transition-transform duration-300 hover:scale-[1.15] hover:-rotate-6"></i>
                       </a>
                     </div>
