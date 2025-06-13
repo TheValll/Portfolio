@@ -1,0 +1,134 @@
+{
+  "projects": {
+    "top": [
+      {
+        "name": "Ollama-AI-Chat-Interface",
+        "link": "https://github.com/TheValll/Ollama-AI-Chat-Interface",
+        "img": "/assets/projects-img/ollama.png",
+        "desc": "💬🧠 A sleek web chat interface to interact with AI models using the Ollama API! This project supports models like llama3, mistral, mini orca, and more. A great introduction to LLMs and modern AI technologies.",
+        "demo": "",
+        "language": [
+          "/assets/icon/Ollama.svg",
+          "/assets/icon/Python.svg",
+          "/assets/icon/Git.svg"
+        ]
+      },
+      {
+        "name": "RocketLeague SoundBoard BakkesModPlugin",
+        "link": "https://bakkesplugins.com/plugins/view/490",
+        "img": "/assets/projects-img/rl.png",
+        "desc": "🚗🎵 A custom soundboard plugin for Rocket League using BakkesMod! This plugin plays custom sounds during in-game events to spice up your matches with fun audio effects.",
+        "demo": "",
+        "language": [
+          "/assets/icon/CPP.svg",
+          "/assets/icon/Linux.svg",
+          "/assets/icon/VisualStudio.svg"
+        ]
+      },
+      {
+        "name": "Spotify Overlay",
+        "link": "",
+        "img": "/assets/projects-img/spotify.png",
+        "desc": "🎧🖥️ A classic Spotify overlay for OBS or desktop use, displaying current song info. A clean and customizable UI project that enhances the musical experience while streaming or working.",
+        "demo": "",
+        "language": [
+          "/assets/icon/QT.svg",
+          "/assets/icon/Python.svg",
+          "/assets/icon/Git.svg"
+        ]
+      },
+      {
+        "name": "Discord Bot",
+        "link": "https://github.com/TheValll/discord-bot",
+        "img": "/assets/projects-img/discord.png",
+        "desc": "🤖🎂 A fun and friendly birthday bot for Discord, featuring a daily mini-game at midnight! This project adds daily engagement and joy to any server community.",
+        "demo": "",
+        "language": [
+          "/assets/icon/Python.svg",
+          "/assets/icon/GCP.svg",
+          "/assets/icon/Discord.svg",
+          "/assets/icon/Bots.svg"
+        ]
+      }
+    ],
+    "bottom": [
+      {
+        "name": "Airport Map Searching",
+        "link": "https://github.com/TheValll/airport-map",
+        "img": "/assets/projects-img/airport.png",
+        "desc": "The Airport Map Searching website allows you to visualize all the airports on a map of a searched country! I was able to learn how to use Leaflet with this project. ✈️🌎🗺️",
+        "demo": "https://thevalll.github.io/airport-map/",
+        "language": [
+          "/assets/icon/JavaScript.svg",
+          "/assets/icon/Sass.svg",
+          "/assets/icon/Git.svg"
+        ]
+      },
+      {
+        "name": "Weather WebApp",
+        "link": "https://github.com/TheValll/react-weather-webapp",
+        "img": "/assets/projects-img/weather-app.png",
+        "desc": "This project is my very first React project, it's a weather web app that shows your current weather based on your location with some cool features. ☀️🌦🌨🌍",
+        "demo": "https://react-weather-webapp-delta.vercel.app/",
+        "language": [
+          "/assets/icon/React.svg",
+          "/assets/icon/Sass.svg",
+          "/assets/icon/Git.svg"
+        ]
+      },
+      {
+        "name": "Robot Type",
+        "link": "https://github.com/TheValll/type-game",
+        "img": "/assets/projects-img/robottype.png",
+        "desc": "The Robot Type game is a clone of the famous game MonkeyType, allowing you to improve and test your typing skills. This project allowed me to further enhance my competencies in JavaScript. 💻👾🎮",
+        "demo": "https://thevalll.github.io/type-game/",
+        "language": [
+          "/assets/icon/JavaScript.svg",
+          "/assets/icon/Sass.svg",
+          "/assets/icon/Git.svg"
+        ]
+      }
+    ]
+  },
+  "formations": [
+    {
+      "name": "Aeronautical Initiation Certificate - With honors, Self-taught",
+      "link": "https://www.education.gouv.fr/bo/2010/02/mene0931098n.html",
+      "img": "/assets/schools-img/bia.jpg",
+      "desc": "🛫 Self-taught diploma in aeronautics covering regulations, meteorology, aerodynamics, and aviation history."
+    },
+    {
+      "name": "Scientific refresher course - University of Cergy-Pontoise",
+      "link": "https://www.cyu.fr/",
+      "img": "/assets/schools-img/cy.jpg",
+      "desc": "📚 Short academic program in math and physics to reinforce scientific foundations and critical thinking."
+    },
+    {
+      "name": "Konexio formation - Web Developer",
+      "link": "https://www.konexio.eu/",
+      "img": "/assets/schools-img/konexio.jpg",
+      "desc": "💻 Practical training in web development (HTML, CSS, JS), MySQL, and application maintenance. RNCP Level 5."
+    },
+    {
+      "name": "IMIE - Web Conception",
+      "link": "https://www.imie-paris.fr/",
+      "img": "/assets/schools-img/imie.png",
+      "desc": "🎓 Bachelor-level training (RNCP39608) in full-stack web development, Linux, CI/CD, and agile project management."
+    },
+    {
+      "name": "Efrei Paris - Mastère Data Engineering & AI",
+      "link": "https://www.efrei.fr/",
+      "img": "/assets/schools-img/efrei.png",
+      "desc": "🤖 Master’s degree focused on big data, AI pipelines, cloud architecture, machine learning, and data strategy."
+    }
+  ],
+  "experiences": [
+    {
+      "name": "Adloox - Scope3",
+      "date": "02/2024 - 09/2025",
+      "link": "https://fr.adloox.com/",
+      "img": "/assets/society-img/adloox.jpg",
+      "desc": "👨‍💻 Dev apprentice: dashboards (Streamlit), API (Flask), Docker 🐳, BigQuery 📊, Linux VM via SSH 🖥️, API docs 📚"
+    }
+  ]
+}

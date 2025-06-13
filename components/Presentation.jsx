@@ -37,7 +37,7 @@ const Presentation = () => {
         {/* Description */}
         <div className={`${styles.description} max-w-md text-lg text-gray-700`}>
           <p>
-            Hello, I'm Valentin Massonnière, an enthusiastic{" "}
+            Hello, I'm Valentin Massonniere, an enthusiastic{" "}
             <br className="hidden sm:inline" />
             AI & Data Engineering Student from France{" "}
             <span role="img" aria-label="pin location">
