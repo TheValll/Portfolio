@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="aboutScroll"
-      className="max-w-6xl mx-auto my-20 px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-16 items-center h-[80vh]"
+      className="max-w-6xl mx-auto my-20 px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-16 items-center min-h-[80vh]"
     >
       {/* Left Image Column */}
       <div className="flex justify-center items-center">

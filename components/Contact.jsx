@@ -1,4 +1,3 @@
-// components/Contact.jsx
 "use client";
 
 import React from "react";
@@ -25,8 +24,15 @@ const Contact = () => {
             <div className="bg-white p-6 rounded-xl shadow-xl border border-gray-100 flex flex-col gap-4 max-w-sm w-full">
               {/* Mail contact */}
               <div className="flex items-center text-gray-700 font-mulish text-lg">
-                <MailIcon className="mr-3 text-blue-500" size={24} />
-                <p>valentin78.massonniere@gmail.com</p>
+                <MailIcon
+                  className="mr-3 text-blue-500 flex-shrink-0"
+                  size={24}
+                />{" "}
+                {/* Added flex-shrink-0 */}
+                <p className="min-w-0 break-words">
+                  valentin78.massonniere@gmail.com
+                </p>{" "}
+                {/* Added min-w-0 and break-words */}
               </div>
 
               {/* Discord contact */}
