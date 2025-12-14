@@ -26,11 +26,9 @@ const About = () => {
 
         {/* Paragraph 1 */}
         <p className={`${styles.aboutParagraph} mt-5`}>
-          I'm currently registered at Efrei Paris for the upcoming academic
-          year, specializing in Data Engineering & AI 📊. I'm on the hunt for an
-          apprenticeship opportunity 💼 that will allow me to significantly
-          develop my programming skills 🧑‍💻 and discover exciting possibilities
-          for my future endeavors ✨.
+          I'm currently registered at Efrei Paris specializing in Data
+          Engineering & AI 📊. I'm in apprenticeship at IceBerg Data Lab such as
+          AI Engineer or Data Scientist ✨.
         </p>
 
         {/* Paragraph 2 */}

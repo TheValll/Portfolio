@@ -2,6 +2,18 @@
   "projects": {
     "top": [
       {
+        "name": "DeepSight-Nebula",
+        "link": "https://github.com/TheValll/DeepSight-Nebula",
+        "img": "/assets/projects-img/deep.gif",
+        "desc": "🤖🧠 DeepSight-Nebula is a project that combines Robotics and Artificial Intelligence to prepare myself for a PhD in Robotics and AI.",
+        "demo": "",
+        "language": [
+          "/assets/icon/CPP.svg",
+          "/assets/icon/Python.svg",
+          "/assets/icon/ROS-Dark.svg"
+        ]
+      },
+      {
         "name": "Ollama-AI-Chat-Interface",
         "link": "https://github.com/TheValll/Ollama-AI-Chat-Interface",
         "img": "/assets/projects-img/ollama.png",
@@ -129,6 +141,13 @@
       "link": "https://fr.adloox.com/",
       "img": "/assets/society-img/adloox.jpg",
       "desc": "👨‍💻 Dev apprentice: dashboards (Streamlit), API (Flask), Docker 🐳, BigQuery 📊, Linux VM via SSH 🖥️, API docs 📚"
+    },
+    {
+      "name": "IceBergData Lab",
+      "date": "01/2026 --",
+      "link": "https://www.icebergdatalab.com/",
+      "img": "/assets/society-img/ibdl.svg",
+      "desc": "🧠 AI Engineer & Data Scientist"
     }
   ]
 }

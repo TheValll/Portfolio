@@ -26,7 +26,7 @@ const Presentation = () => {
           <h1
             className={`${styles.title} text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight`}
           >
-            AI & Data Engineering
+            AI - Robotic Engineer & Data Scientist
             <br /> Student{" "}
             <span role="img" aria-label="mobile phone">
               ✨
@@ -39,7 +39,8 @@ const Presentation = () => {
           <p>
             Hello, I'm Valentin Massonniere, an enthusiastic{" "}
             <br className="hidden sm:inline" />
-            AI & Data Engineering Student from France{" "}
+            AI - Robotic Engineer & Data Scientist at IceBergData Lab from
+            France{" "}
             <span role="img" aria-label="pin location">
               🇫🇷
             </span>
@@ -89,15 +90,15 @@ const Presentation = () => {
               className={`object-contain ${styles.techIcon}`}
             />
             <Image
-              src="/assets/icon/GCP.svg"
+              src="/assets/icon/ROS-Dark.svg"
               alt="Logo GCP"
               width={40}
               height={40}
               className={`object-contain ${styles.techIcon}`}
             />
             <Image
-              src="/assets/icon/Bash.svg"
-              alt="Logo Bash"
+              src="/assets/icon/Arduino.svg"
+              alt="Logo GCP"
               width={40}
               height={40}
               className={`object-contain ${styles.techIcon}`}
@@ -112,20 +113,6 @@ const Presentation = () => {
             <Image
               src="/assets/icon/RaspberryPi.svg"
               alt="Logo RaspberryPi"
-              width={40}
-              height={40}
-              className={`object-contain ${styles.techIcon}`}
-            />
-            <Image
-              src="/assets/icon/GitLab.svg"
-              alt="Logo Gitlab"
-              width={40}
-              height={40}
-              className={`object-contain ${styles.techIcon}`}
-            />
-            <Image
-              src="/assets/icon/GitHub.svg"
-              alt="Logo GitHub"
               width={40}
               height={40}
               className={`object-contain ${styles.techIcon}`}
